@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import AuthForm from "./pages/AuthForm";
 import { supabase } from "./pages/supabaseClient";
+import "./App.css";
+
 
 function App() {
   const [isLogin, setIsLogin] = useState(true);
